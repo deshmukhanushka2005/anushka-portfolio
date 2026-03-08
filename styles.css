@@ -1,0 +1,114 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+/* Hero */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px;
+min-height:80vh;
+}
+
+.hero-text h1{
+font-size:60px;
+line-height:1.1;
+}
+
+.hero-text span{
+color:#38bdf8;
+}
+
+.hero-text p{
+margin:20px 0;
+color:#94a3b8;
+}
+
+.buttons{
+margin-top:20px;
+}
+
+.btn{
+background:#38bdf8;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+margin-right:15px;
+}
+
+.btn-outline{
+border:1px solid #38bdf8;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+}
+
+.hero-image img{
+width:300px;
+border-radius:15px;
+}
+
+/* Projects */
+
+.projects{
+padding:80px;
+text-align:center;
+}
+
+.projects h2{
+margin-bottom:40px;
+font-size:34px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:40px;
+color:#94a3b8;
+}
